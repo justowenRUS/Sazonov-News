@@ -1,0 +1,201 @@
+/* styles.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ccc;
+  margin: 0; /* Добавляем свойство margin: 0; для удаления отступов */
+}
+
+.container {
+  max-width: 800px; /* Задаем максимальную ширину контейнера */
+  width: 100%;
+  margin-top: 40px;
+  padding: 0 20px; /* Добавляем отступы по бокам контейнера */
+  align-self: flex-start; /* Отправляем контейнер вверх страницы */
+}
+
+.header {
+  display: inline-block;
+  font-size: 14px;
+  background-color: #3498db; /* Светло-синий фон */
+  color: #fff; /* Белый цвет текста */
+  text-align: center;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+  position: relative;
+  margin-top: 20px;
+  padding: 10px 20px; /* Добавляем отступы внутри заголовка */
+  border-radius: 5px; /* Задаем закругленные углы */
+}
+
+.header:hover {
+  color: #ddd; /* Цвет текста при наведении */
+}
+
+.active {
+  background-color: #ccc;
+}
+
+.news-container {
+  margin-top: 20px;
+}
+
+.category {
+  margin-bottom: 10px;
+  display: flex; /* Добавляем свойство display: flex; */
+  align-items: center; /* Добавляем свойство align-items: center; */
+}
+
+.category h2 {
+  font-size: 18px;
+  margin: 0; /* Добавляем свойство margin: 0; для удаления отступов */
+}
+
+.system-time {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.category-header {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.category-header p {
+  font-size: 14px;
+}
+
+.news-container {
+  text-align: center;
+}
+
+.news-center {
+  display: inline-block;
+  text-align: left;
+}
+
+.news-item {
+  margin-bottom: 20px;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.news-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.news-item h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.news-item p {
+  font-size: 14px;
+}
+
+.news-info {
+  font-size: 12px;
+}
+
+.news-date {
+  margin-right: 10px;
+}
+
+.news-author {
+  font-style: italic;
+}
+
+.text {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.comments {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-content {
+  flex: 1;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.text {
+  margin-top: 5px;
+}
+
+.leave-comment {
+  margin-top: 20px;
+}
+
+.comment-form {
+  display: flex;
+  align-items: center;
+}
+
+.comment-inputs {
+  flex: 1;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+video {
+  margin-top: 20px;
+  border-radius: 10px;
+}
